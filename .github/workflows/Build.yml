@@ -15,11 +15,11 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   TZ: Asia/Shanghai
-  DEVICE: KOMI_A31
+  DEVICE: komi_a31
   UPLOAD_OUTPUT: true
 
 jobs:
-   newifi3-d2:
+   KOMI_A31:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
