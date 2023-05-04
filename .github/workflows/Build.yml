@@ -10,12 +10,12 @@ on:
         default: 'false'
         
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: openwrt-21.02
+  REPO_URL: https://github.com/thunder361/immortalwrt
+  REPO_BRANCH: mt7981
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   TZ: Asia/Shanghai
-  DEVICE: newifi3-d2
+  DEVICE: KOMI_A31
   UPLOAD_OUTPUT: true
 
 jobs:
