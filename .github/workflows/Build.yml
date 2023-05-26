@@ -19,7 +19,7 @@ env:
   UPLOAD_OUTPUT: true
 
 jobs:
-   360 T7:
+   360_T7:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
